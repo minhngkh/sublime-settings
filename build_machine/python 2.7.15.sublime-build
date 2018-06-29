@@ -1,0 +1,5 @@
+{
+"cmd": ["/Library/Frameworks/Python.framework/Versions/2.7/bin/python2", "-u", "$file"],
+"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+"selector": "source.python"
+}

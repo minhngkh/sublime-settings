@@ -1,0 +1,22 @@
+{
+    "linters": {
+        "flake8": {
+            "ignore": "E501"
+        }
+    },
+    "delay": 0.1,
+    "styles": [
+        {
+            "scope": "region.whitish markup.warning.sublime_linter",
+            "types": ["warning"],
+            "icon": "pointer",
+            "mark_style": "none"
+        },
+        {
+            "priority": 1,
+            "icon": "dot",
+            "mark_style": "outline",
+            "scope": "region.greenish markup.error.sublime_linter"
+        }
+    ]
+}
